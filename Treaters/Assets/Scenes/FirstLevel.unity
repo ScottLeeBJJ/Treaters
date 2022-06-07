@@ -123,6 +123,56 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &13296300 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6888033603601172434, guid: f9887e2957afdff4898d1672b185b5cc, type: 3}
+  m_PrefabInstance: {fileID: 2008219611}
+  m_PrefabAsset: {fileID: 0}
+--- !u!143 &13296307
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13296300}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 1
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &13296308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13296300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a60416a2e6b5df24dafd6ecd803cadd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <InputReader>k__BackingField: {fileID: 13296309}
+  <Controller>k__BackingField: {fileID: 13296307}
+  <FreeLookMovementSpeed>k__BackingField: 0
+--- !u!114 &13296309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13296300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c968568619145734f9ab7aa903e71879, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &177627279
 GameObject:
   m_ObjectHideFlags: 0
@@ -547,6 +597,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6792533155042914890, guid: f9887e2957afdff4898d1672b185b5cc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3ecad847262dbcc4c814ecb2ac2c172e, type: 2}
     - target: {fileID: 6888033603601172434, guid: f9887e2957afdff4898d1672b185b5cc, type: 3}
       propertyPath: m_Name
       value: Player
