@@ -37,4 +37,6 @@ public class InputReader : MonoBehaviour, Controls.IPlayerActions
 
         MoveEvent?.Invoke();
     }
+
+    
 }
